@@ -14,6 +14,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
         ndk {
+            debugSymbolLevel = 'FULL'
             abiFilters 'arm64-v8a', 'armeabi-v7a', 'x86_64', 'x86'
         }
         externalNativeBuild {
