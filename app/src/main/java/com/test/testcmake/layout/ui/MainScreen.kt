@@ -20,7 +20,7 @@ import com.test.testcmake.main.MainVM
 
 
 @Composable
-fun MainTestScreen(viewModel: MainVM){
+fun MainScreen(viewModel: MainVM){
     val counterState = viewModel.counter.collectAsState()
     Column(
         modifier = Modifier.fillMaxSize(),

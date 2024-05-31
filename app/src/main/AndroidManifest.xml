@@ -14,10 +14,9 @@
         android:theme="@style/Theme.TestCMake"
         tools:targetApi="31">
         <activity
-            android:name=".main.MainTestActivity"
-            android:exported="false"
-            android:label="@string/title_activity_main_tes_screen"
-            android:theme="@style/Theme.TestCMake">
+            android:name=".main.MainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_main_tes_screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

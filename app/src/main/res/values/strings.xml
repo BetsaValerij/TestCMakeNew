@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">TestCMake</string>
-    <string name="title_activity_main_tes_screen">MainTestScreen</string>
+    <string name="title_activity_main_tes_screen">MainScreen</string>
 </resources>
